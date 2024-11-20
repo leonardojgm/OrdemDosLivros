@@ -6,6 +6,8 @@
 
 ![image](https://github.com/user-attachments/assets/a51ac6c9-bd7e-4ad4-97b6-733d86f0a082)
 
+![image](https://github.com/user-attachments/assets/1d917954-d393-4e50-936a-4f80f40012e6)
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
