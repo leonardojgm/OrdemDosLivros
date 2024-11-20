@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo com JavaScript #2</title>
+        <script>
+            const nomes = ["Ana", "Pedro", "Rebeca", "Maria"];
+
+            function executar() {
+                console.log("Executou!!!");
+
+                const ul = document.createElement("ul");
+
+                for (let nome of nomes) {
+                    const li = document.createElement("li");
+
+                    li.textContent = nome;
+
+                    ul.appendChild(li);
+                }
+
+                document.body.appendChild(ul);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="executar()">Executar</button>
+    </body>
+</html>
